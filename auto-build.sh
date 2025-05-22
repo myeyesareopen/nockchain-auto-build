@@ -30,6 +30,7 @@ function execute_with_retry() {
 
 # List of commands to execute
 commands=(
+    "make install-hoonc"
     "make build"
     "make install-nockchain-wallet"
     "make install-nockchain"
