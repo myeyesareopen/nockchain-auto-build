@@ -14,17 +14,28 @@
 
 ### 使用方法
 
-在nockchain项目目录下下载并执行脚本：
+#### Ubuntu系统
+
+下载并执行脚本：
 ```bash
-wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh && chmod +x auto-build.sh && ./auto-build.sh
+wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-ubuntu.sh && chmod +x auto-build-ubuntu.sh && ./auto-build-ubuntu.sh
 ```
+
+#### Mac系统
+
+下载并执行脚本：
+```bash
+curl -o auto-build-mac.sh https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-mac.sh && chmod +x auto-build-mac.sh && ./auto-build-mac.sh
+```
+
+Mac版本会自动检查并安装必要的开发工具（Xcode Command Line Tools和Homebrew）。
 
 ### 脚本执行流程
 
-1. 执行 `make install-hoonc` - 安装hoonc
-2. 执行 `make build` - 编译项目
-3. 执行 `make install-nockchain-wallet` - 安装nockchain钱包
-4. 执行 `make install-nockchain` - 安装nockchain主程序
+执行 make install-hoonc - 安装hoonc
+执行 make build - 编译项目
+执行 make install-nockchain-wallet - 安装nockchain钱包
+执行 make install-nockchain - 安装nockchain主程序
 
 每个步骤遇到错误时，会自动重试最多20次，每次重试间隔10秒。
 
@@ -40,11 +51,13 @@ MAX_RETRIES=20
 
 GitHub: [https://github.com/myeyesareopen/nockchain-auto-build](https://github.com/myeyesareopen/nockchain-auto-build)
 
-Raw文件: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh](https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh)
+Ubuntu版本: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-ubuntu.sh](https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-ubuntu.sh)
+
+Mac版本: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-mac.sh](https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-mac.sh)
 
 ---
 
-## Introduction
+### Introduction
 
 This is a script for automatically building the nockchain project. The script can be run in the nockchain project directory to automatically execute the compilation process and install related components. The script has an automatic retry function that can effectively handle compilation failures caused by network issues and prevent unexpected exits.
 
@@ -58,17 +71,28 @@ This is a script for automatically building the nockchain project. The script ca
 
 ### Usage
 
-Download and execute the script in nockchain folder:
+#### Ubuntu System
+
+Download and execute the script:
 ```bash
-wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh && chmod +x auto-build.sh && ./auto-build.sh
+wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-ubuntu.sh && chmod +x auto-build-ubuntu.sh && ./auto-build-ubuntu.sh
 ```
+
+#### Mac System
+
+Download and execute the script:
+```bash
+curl -o auto-build-mac.sh https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-mac.sh && chmod +x auto-build-mac.sh && ./auto-build-mac.sh
+```
+
+The Mac version will automatically check for and install necessary development tools (Xcode Command Line Tools and Homebrew).
 
 ### Execution Process
 
-1. Execute `make install-hoonc` - install hoonc
-2. Execute `make build` - Build the project
-3. Execute `make install-nockchain-wallet` - Install nockchain wallet
-4. Execute `make install-nockchain` - Install nockchain main program
+1. Execute make install-hoonc - install hoonc
+2. Execute make build - Build the project
+3. Execute make install-nockchain-wallet - Install nockchain wallet
+4. Execute make install-nockchain - Install nockchain main program
 
 When encountering errors, each step will automatically retry up to 20 times with a 10-second interval between retries.
 
@@ -84,4 +108,6 @@ MAX_RETRIES=20
 
 GitHub: [https://github.com/myeyesareopen/nockchain-auto-build](https://github.com/myeyesareopen/nockchain-auto-build)
 
-Raw file: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh](https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh) 
+Ubuntu version: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-ubuntu.sh](https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-ubuntu.sh)
+
+Mac version: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-mac.sh](https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build-mac.sh) 
