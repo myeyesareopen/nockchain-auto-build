@@ -21,9 +21,10 @@ wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/h
 
 ### 脚本执行流程
 
-1. 执行 `make build` - 编译项目
-2. 执行 `make install-nockchain-wallet` - 安装nockchain钱包
-3. 执行 `make install-nockchain` - 安装nockchain主程序
+1. 执行 `make install-hoonc` - 安装hoonc
+2. 执行 `make build` - 编译项目
+3. 执行 `make install-nockchain-wallet` - 安装nockchain钱包
+4. 执行 `make install-nockchain` - 安装nockchain主程序
 
 每个步骤遇到错误时，会自动重试最多20次，每次重试间隔10秒。
 
@@ -64,9 +65,10 @@ wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/h
 
 ### Execution Process
 
-1. Execute `make build` - Build the project
-2. Execute `make install-nockchain-wallet` - Install nockchain wallet
-3. Execute `make install-nockchain` - Install nockchain main program
+1. Execute `make install-hoonc` - install hoonc
+2. Execute `make build` - Build the project
+3. Execute `make install-nockchain-wallet` - Install nockchain wallet
+4. Execute `make install-nockchain` - Install nockchain main program
 
 When encountering errors, each step will automatically retry up to 20 times with a 10-second interval between retries.
 
