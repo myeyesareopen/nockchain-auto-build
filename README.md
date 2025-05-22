@@ -1,7 +1,5 @@
 # Nockchain 自动编译程序 / Nockchain Auto-Build Script
 
-## 中文版
-
 ### 简介
 
 这是一个用于自动编译nockchain项目的脚本。该脚本可在nockchain项目目录下运行，自动执行编译过程并安装相关组件。脚本具有自动重试功能，能够有效应对因网络问题导致的编译失败，避免意外退出。
@@ -45,9 +43,7 @@ Raw文件: [https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build
 
 ---
 
-## English Version
-
-### Introduction
+## Introduction
 
 This is a script for automatically building the nockchain project. The script can be run in the nockchain project directory to automatically execute the compilation process and install related components. The script has an automatic retry function that can effectively handle compilation failures caused by network issues and prevent unexpected exits.
 
