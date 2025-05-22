@@ -14,7 +14,7 @@
 
 ### 使用方法
 
-下载并执行脚本：
+在nockchain项目目录下下载并执行脚本：
 ```bash
 wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh && chmod +x auto-build.sh && ./auto-build.sh
 ```
@@ -58,7 +58,7 @@ This is a script for automatically building the nockchain project. The script ca
 
 ### Usage
 
-Download and execute the script:
+Download and execute the script in nockchain folder:
 ```bash
 wget https://raw.githubusercontent.com/myeyesareopen/nockchain-auto-build/refs/heads/main/auto-build.sh && chmod +x auto-build.sh && ./auto-build.sh
 ```
